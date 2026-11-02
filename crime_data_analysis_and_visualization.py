@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 sns.set_theme(style="whitegrid")
 os.makedirs("output", exist_ok=True)
 
-df = pd.read_csv("chicago_crimes.csv", low_memory=False)
+df = pd.read_excel("chicago_crimes.xlsx")
 df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
 
 print("Rows before cleaning:", len(df))
