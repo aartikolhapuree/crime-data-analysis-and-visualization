@@ -49,6 +49,26 @@ The model predicts the recorded arrest status using crime category, district, ho
 
 5. View the generated graphs and cleaned dataset in the `output` folder.
 
+## Project Visualizations
+
+### Graph 1: Crime Categories
+![Graph 1](images/Graph_1.png)
+
+### Graph 2: Monthly Crime Trends
+![Graph 2](images/Graph_2.png)
+
+### Graph 3: Top Police Districts
+![Graph 3](images/Graph_3.png)
+
+### Graph 4: District vs Time of Day
+![Graph 4](images/Graph_4.png)
+
+### Graph 5: Confusion Matrix
+![Graph 5](images/Graph_5.png)
+
+### Graph 6: Feature Importance
+![Graph 6](images/Graph_6.png)
+
 ## Author
 
 Aarti Kolhapure  
